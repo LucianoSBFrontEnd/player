@@ -101,7 +101,7 @@ const brunoMar = {
     music: 'Bruno Mars - Just The Way You Are'
 }
 
-const playlist = [shawnMends, lukeCombs2, lukeCombs3, shawnMend, lukeCombs, brunoMars, brunoMar] 
+const playlist = [shawnMends, boyce, lukeCombs2, gabri, sole, prezi,lukeCombs3, gigi, shawnMend, lukeCombs, brunoMars, brunoMar] 
 
 let index = 0
 
