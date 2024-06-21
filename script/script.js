@@ -166,7 +166,7 @@ function fimMusic() {
 
 inicializarPlay()
 
-song.addEventListener('ended', fimMusicMusic)
+song.addEventListener('ended', fimMusic)
 next.addEventListener('click', nextMusic)
 previous.addEventListener('click', backMusic)
 play.addEventListener('click', playPauseDecidir)
