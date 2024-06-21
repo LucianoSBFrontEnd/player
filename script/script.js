@@ -112,7 +112,6 @@ function playSong () {
 
     audio.play()
     isPlaying = true
-
 }
 
 function pauseSong () {
@@ -151,15 +150,12 @@ function backMusic (){
     playSong()
 }
 
-
-
 nextMusic = ()=>{
     if (index === playlist.length - 1){
         index = 0
     } else {
         index = index + 1
     }
-
     inicializarPlay()
     playSong()
 }
