@@ -10,6 +10,47 @@ const suffle = document.getElementById('suffle')
 
 let isPlaying = false
 
+const boyce = {
+    songName: 'On My Way',
+    artist:'Boyce avenue',
+    music:'Boyce Avenue - On My Way',
+    img:'boyce'
+}
+
+const sole = {
+    songName: 'Soleado',
+    artist:'Frequencia Maxima',
+    music:'Soleado',
+    img:'disco'
+}
+
+const gigi = {
+    songName: 'Tu Vivi Nell Aria',
+    artist:'Gigi D Agostino',
+    music:'Gigi D Agostino - Tu Vivi Nell Aria',
+    img:'gigi'
+}
+
+const prezi = {
+    songName: 'The Moon',
+    artist:'Prezioso',
+    music:'The Moon',
+    img:'prezioso',
+}
+
+const brothe = {
+    songName: 'Don t Stop',
+    artist:'Brothers',
+    music:'Brothers - Don t Stop',
+    img:'prezioso'
+}
+  
+const gabri = {
+    songName: 'Tunder',
+    artist:'Gabry Ponte',
+    music:'Gabry Ponte - Tunder',
+    img:'gabry'
+}
 
 const shawnMends = {
     songName:'There\'s Nothing Holding Me Back',
@@ -123,8 +164,13 @@ nextMusic = ()=>{
     playSong()
 }
 
+function fimMusic() {
+   playSong() 
+}
+
 inicializarPlay()
 
+song.addEventListener('ended', fimMusicMusic)
 next.addEventListener('click', nextMusic)
 previous.addEventListener('click', backMusic)
 play.addEventListener('click', playPauseDecidir)
